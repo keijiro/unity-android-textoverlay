@@ -10,8 +10,8 @@ static function Install(ox : int, oy : int, width : int, height : int) {
     GetPluginClass().CallStatic("install", ox, oy, width, height);
 }
 
-static function SetText(text : String) {
-    GetPluginClass().CallStatic("setText", text);
+static function SetText(text : String, textSize : int) {
+    GetPluginClass().CallStatic("setText", text, textSize);
 }
 
 #else
@@ -19,7 +19,7 @@ static function SetText(text : String) {
 static function Install(ox : int, oy : int, width : int, height : int) {
 }
 
-static function SetText(text : String) {
+static function SetText(text : String, textSize : int) {
 }
 
 #endif

@@ -29,9 +29,10 @@ public class TextOverlay {
         });
     }
 
-    public static void setText(final String text) {
+    public static void setText(final String text, final int size) {
         UnityPlayer.currentActivity.runOnUiThread(new Runnable() {
             public void run() {
+                textView.setTextSize(size);
                 textView.setText(text);
             }
         });
