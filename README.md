@@ -1,7 +1,7 @@
-### Screenshot
+### Screenshots
 
-Running on DROID 2
+docomo GALAXY S SC-02B
 
-(sorry for glitches)
-
-![Screenshot](http://github.com/downloads/keijiro/unity-android-textoverlay/device-2011-10-24-182922.png)
+![Example: GALAXY S (small font)](https://github.com/keijiro/unity-android-textoverlay/raw/master/Etc/galaxy-s-1.png)
+![Example: GALAXY S (medium font)](https://github.com/keijiro/unity-android-textoverlay/raw/master/Etc/galaxy-s-2.png)
+![Example: GALAXY S (large font)](https://github.com/keijiro/unity-android-textoverlay/raw/master/Etc/galaxy-s-3.png)
